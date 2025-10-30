@@ -1,0 +1,9 @@
+"stylelint.validate": [
+  "css",
+  "scss" // SCSSなど、使用する言語を追加します
+],
+"stylelint.enable": true,
+"[css,scss]": {
+  "editor.defaultFormatter": "Shopify.theme-check-vscode",
+  "editor.formatOnSave": true
+},
